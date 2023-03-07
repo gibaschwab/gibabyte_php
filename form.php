@@ -6,12 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Import Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
-    <title>WEB PROG</title>
+    <title>form</title>
 </head>
 
 <?php
-    if (isset($_GET['error'])) {
-        echo 'usuário ou senha inválidos';
+    $erro = $_GET['erro'] ?? false;
+    
+    switch ($erro) {
+        case 1:
+            echo 'usuario/senha invalido';
+            break;
+        case 2:
+            echo 'voce n esta autenticado';
     }
 ?>
 

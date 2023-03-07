@@ -6,8 +6,11 @@
 $usuario = $_POST['user'] ?? false;
 $senha = $_POST['senha'] ?? false;
 
-if ($usuario == 'rafael' && $senha == '123') {
+if ($usuario == 'giba' && $senha == '123') {
     // echo 'login sucesso';
+    session_status();
+    $_SESSION['usuario'] = 'usuario';
+
     header('location: welcome.php');
     die;
 } else {
