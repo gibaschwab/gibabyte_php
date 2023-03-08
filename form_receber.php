@@ -3,7 +3,7 @@
 // echo $_GET['user'];
 // echo $_GET['senha'];
 // post > get
-$usuario = $_POST['user'] ?? false;
+$usuario = $_POST['usuario'] ?? false;
 $senha = $_POST['senha'] ?? false;
 
 if ($usuario == 'giba' && $senha == '123') {

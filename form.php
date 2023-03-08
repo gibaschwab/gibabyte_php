@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Import Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
-    <title>form</title>
+    <title>forma</title>
 </head>
 
 <?php
@@ -18,6 +18,8 @@
             break;
         case 2:
             echo 'voce n esta autenticado';
+        case 3:
+            echo 'voce saiu com sucesso';
     }
 ?>
 
@@ -26,7 +28,7 @@
         <div class="row mt-2">
             <div class="col-md-2 form-group">
                 <label for="campo-titulo" class="mb-1">Usuário</label>
-                <input type="text" class="form-control" name="user">
+                <input type="text" class="form-control" name="usuario">
             </div>
         </div>
         <div class="row mt-2">
