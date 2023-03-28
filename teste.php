@@ -1,5 +1,11 @@
 <?php
+    // teste.php
+    // Está salvo em c:/xampp/htdocs/rafael/
 
-    echo 1 + 1;
+    echo 'abacaxi';
 
 ?>
+<h1>Teste</h1>
+<?php
+    $variavel = 5;
+    echo $variavel;

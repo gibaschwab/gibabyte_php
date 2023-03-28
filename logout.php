@@ -1,5 +1,6 @@
 <?php
+    # logout.php
     session_start();
     session_destroy();
-    
-    header('location: form.php?error=1');
+
+    header('location:form.php?erro=3');

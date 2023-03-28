@@ -1,8 +1,9 @@
-<?php 
-    include('var.php'); 
+<?php
+    // produtos.php
+    include('variaveis.php');
     require('head.php');
 ?>
-    <h1><?= $title; ?></h1>
+    <h1><?= $titulo; ?></h1>
     <p><?= $msg; ?></p>
     <h2>Produtos</h2>
     <ul>

@@ -1,8 +1,8 @@
-<?php 
-    include('var.php'); 
+<?php
+    include('variaveis.php');
     require('head.php');
 ?>
-    <h1><?= $title; ?></h1>
+    <h1><?= $titulo; ?></h1>
     <p><?= $msg; ?></p>
 </body>
 </html>
