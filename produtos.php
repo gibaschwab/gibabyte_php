@@ -3,8 +3,12 @@
 require('models/Model.php');
 require('models/Produto.php');
 
+require('twig.inc.php');
+
 $prod = new Produto();
 
 $resultado = $prod->getAll();
 
-var_dump($resultado);
+echo $twig->render('produtos.html', [
+    'produtos' => $resultado,
+]);
